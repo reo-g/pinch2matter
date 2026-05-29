@@ -1,0 +1,32 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# matter.js のローカルストレージ (fabric 秘密鍵などを含むのでコミット禁止)
+.matter/
+storage/
+*.storage
+
+# Logs
+*.log
+
+# Env
+.env
+.env.local
+
+# Editors / agents
+.vscode/
+.idea/
+.claude/
+
+# Internal spec (Claude Code handoff prompt — not for public)
+HANDOFF.md
+
+# OS
+.DS_Store
+
+# Build
+dist/
+build/

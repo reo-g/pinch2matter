@@ -1,0 +1,20 @@
+{
+  "name": "pinch2matter",
+  "version": "0.1.0",
+  "description": "🤏→💡 Apple Watch double-tap turns off Matter lights via matter.js",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "reset": "rm -rf .matter storage *.storage \"$HOME/.matter/pinch2matter-node\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@matter/main": "^0.11.0",
+    "express": "^4.19.2",
+    "qrcode": "^1.5.4"
+  },
+  "license": "MIT"
+}
